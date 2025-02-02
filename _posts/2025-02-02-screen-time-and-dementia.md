@@ -27,4 +27,4 @@ In fact, reading has the opposite effect on our brains to screen time—it impro
 
 [^3]: Laurie A. Manwell, Merelle Tadros, Tiana M. Ciccarelli, Roelof Eikelboom. Digital dementia in the internet generation: excessive screen time during brain development will increase the risk of Alzheimer's disease and related dementias in adulthood. _J. Integr. Neurosci._ 2022, 21(1), 28 [https://doi.org/10.31083/j.jin2101028](https://doi.org/10.31083/j.jin2101028)
 
-[^4]: Duursma, Elisabeth & Augustyn, Marilyn & Zuckerman, B. (2008). Reading aloud to children: The evidence. Archives of disease in childhood. 93. 554-7. [http://dx.doi.org/10.1136/adc.2006.106336](http://dx.doi.org/10.1136/adc.2006.106336)
+[^4]: Duursma, Elisabeth & Augustyn, Marilyn & Zuckerman, B. (2008). Reading aloud to children: The evidence. Archives of disease in childhood. 93. 554-7. [https://dx.doi.org/10.1136/adc.2006.106336](https://dx.doi.org/10.1136/adc.2006.106336)
