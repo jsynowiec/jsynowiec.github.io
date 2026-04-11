@@ -64,7 +64,7 @@ analytics:
     id: # fill in your GoatCounter ID
   umami:
     id: 2b82cecb-8e62-43db-a315-f7f51f223ced # fill in your Umami ID
-    domain: jsynowiec.github.io # fill in your Umami domain
+    domain: https://cloud.umami.is # fill in your Umami domain
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
