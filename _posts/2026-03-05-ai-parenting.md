@@ -5,7 +5,7 @@ categories: ["Musings", "AI"]
 description: Correcting and guiding an AI is deeply similar to dealing with an overly curious, know-it-all, but ultimately clueless five-year-old.
 tags: ["AI", "AI Assistants", "LLM", "Claude", "ChatGPT", "Productivity"]
 image:
-  path: /assets/img/posts/20260305/swing.png
+  path: /assets/img/posts/20260305/swing.webp
   alt: A swing blueprint with rocket engines, homing-lasers and wheels.
 ---
 
