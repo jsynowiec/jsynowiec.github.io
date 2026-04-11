@@ -1,7 +1,7 @@
 ---
 title: AI pair-programming
 date: 2025-03-26 20:48:00 +0200
-categories: ["Musings", "Software Engineering"]
+categories: ["Musings", "AI"]
 tags: ["AI", "AI Assistants", "LLM", "programming", "Cline", "Aider", "Copilot", "Productivity"]
 image:
   path: /assets/img/posts/20250326/ai-coder.webp

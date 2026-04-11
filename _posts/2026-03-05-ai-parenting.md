@@ -1,7 +1,7 @@
 ---
 title: AI Parenting
 date: 2026-03-05 16:51:00 +0200
-categories: ["Musings", "Software Engineering"]
+categories: ["Musings", "AI"]
 description: Correcting and guiding an AI is deeply similar to dealing with an overly curious, know-it-all, but ultimately clueless five-year-old.
 tags: ["AI", "AI Assistants", "LLM", "Claude", "ChatGPT", "Productivity"]
 image:
