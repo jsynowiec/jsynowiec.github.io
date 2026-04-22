@@ -14,4 +14,4 @@ My thoughts might change over time as I keep an open mind. This blog is like a s
 
 ---
 
-[^1]: My LLM usage policy is as follows: I employ LLM models for image generation, spellchecking and grammar checking, research assistance, searching through my personal highlights of articles and documents, and conversing with my notes. I never use AI to compose the original drafts or generate writing ideas.
+[^1]: My AI usage policy is as follows: I employ LLMs for image generation, spellchecking, and grammar checking, research assistance, searching through my personal highlights and documents, and *conversing* with my notes. I never use AI to compose the original drafts or generate writing ideas.
