@@ -27,14 +27,14 @@ The last step was building something to browse the exported chats, preview them,
 ### HTML Export
 
 <div style="display: flex; gap: 10px;">
-  <img src="assets/img/posts/20260508/duckai-tools-html-export.webp" width="45%" />
+  <img src="assets/img/posts/20260508/duckai-tools-html-export.webp" width="45%" alt="A screenshot showing HTML transcript of an chat with an AI" />
 </div>
 
 ### TUI
 
 <div style="display: flex; gap: 10px;">
-  <img src="assets/img/posts/20260508/duckai-tools-tui-list.webp" />
-  <img src="assets/img/posts/20260508/duckai-tools-tui-details.webp" />
+  <img src="assets/img/posts/20260508/duckai-tools-tui-list.webp" alt="A screenshot of a Terminal User Interface (TUI) app with a two-pane layout. The left column lists conversations, while the right pane shows a preview of the selected chat." />
+  <img src="assets/img/posts/20260508/duckai-tools-tui-details.webp" alt="A screenshot of a terminal user interface (TUI) app displaying a Markdown preview of an AI chat." />
 </div>
 
 ## Source Code
