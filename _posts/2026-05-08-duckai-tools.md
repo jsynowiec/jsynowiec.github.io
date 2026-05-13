@@ -22,13 +22,24 @@ Next was reverse-engineering the schema. For that, I used OpenCode (currently my
 
 The last step was building something to browse the exported chats, preview them, and convert them to something friendlier to read offline. Again, I used OpenCode to *grill* me and build a PRD, a detailed plan with specific assumptions and requirements, and a list of tasks. After a few review iterations and small corrections, I let OpenCode build it while I got back to reading Starsight by Brandon Sanderson.
 
+## Update: May 13, 2026
+
+I moved to augmenting Duck.ai UI with extra features using user scripts. I considered building a browser extension but opted for user scripts as a simpler and faster way to iterate. A browser extension would have release and cross-browser compatibility overhead. With user scripts, I can focus on functionality and leverage existing, tested extensions like [Tampermonkey](https://www.tampermonkey.net/) or [Userscripts](https://itunes.apple.com/us/app/userscripts/id1463298887) to inject and run the scripts I create. This lets me focus fully on functionality.
+
+So far, I've created three power-user features:
+- a keyboard shortcuts cheat sheet and a keyboard shortcut to open Duck.ai settings,
+- a locally-stored quick prompts picker,
+- a Spotlight-style chat search and switcher.
+
+These are geared toward power users and intended for people who prefer to use the keyboard and keyboard shortcuts for most interactions. The chat search and switcher greatly improves navigation over the chat history, while the prompt picker allows you to store and quickly insert your most frequently used prompts.
+
+I'm using all these scripts myself, mostly in Safari, but they should work in other browsers too (I tested Firefox and Helium). All scripts are in plain JavaScript with no imports, build step, or external dependencies. They use standard DOM and browser keyboard APIs to remain compatible with Safari, Firefox, and Chrome.
+
 ## Screenshots
 
 ### HTML Export
 
-<div style="display: flex; gap: 10px;">
-  <img src="assets/img/posts/20260508/duckai-tools-html-export.webp" width="45%" alt="A screenshot showing HTML transcript of an chat with an AI" />
-</div>
+<img src="assets/img/posts/20260508/duckai-tools-html-export.webp" width="45%" alt="A screenshot showing HTML transcript of an chat with an AI" />
 
 ### TUI
 
@@ -36,6 +47,17 @@ The last step was building something to browse the exported chats, preview them,
   <img src="assets/img/posts/20260508/duckai-tools-tui-list.webp" alt="A screenshot of a Terminal User Interface (TUI) app with a two-pane layout. The left column lists conversations, while the right pane shows a preview of the selected chat." />
   <img src="assets/img/posts/20260508/duckai-tools-tui-details.webp" alt="A screenshot of a terminal user interface (TUI) app displaying a Markdown preview of an AI chat." />
 </div>
+
+### Userscripts
+
+#### Chat Quick Swithcer
+
+<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-switch-userscript.gif" width="45%" />
+
+
+#### Prompt Quick Picker
+
+<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-prompt-userscript.gif" width="45%"  />
 
 ## Source Code
 
