@@ -52,12 +52,12 @@ I'm using all these scripts myself, mostly in Safari, but they should work in ot
 
 #### Chat Quick Swithcer
 
-<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-switch-userscript.gif" width="45%" />
+<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-switch-userscript.gif" width="45%" alt='A screenshot of the Duck.ai interface displaying a search modal where the user has typed "moon", showing suggestions for "Moon distance from Earth" and "Moon count in the solar system"' />
 
 
 #### Prompt Quick Picker
 
-<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-prompt-userscript.gif" width="45%"  />
+<img src="https://github.com/jsynowiec/duckai-tools/raw/main/assets/quick-prompt-userscript.gif" width="45%" alt="A screenshot of the Duck.ai interface showing a modal where the user selects a previously saved prompt to insert it into the prompt textarea"/>
 
 ## Source Code
 
