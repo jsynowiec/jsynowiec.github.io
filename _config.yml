@@ -19,11 +19,11 @@ title: Jakub's Musings # the main title
 tagline: Thoughts on life, technology, and everything in between
 
 description: >- # used by seo meta and the atom feed
-  A personal blog.
+  A personal blog. My Thoughts on life, technology, and everything in between. I write primarily because it helps me organize my thoughts, and every so often those ideas can be helpful to others.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://jsynowiec.github.io"
+url: "https://jsynowiec.xyz"
 
 github:
   username: jsynowiec
