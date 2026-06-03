@@ -11,7 +11,7 @@ I was recently reviewing a few PRs and saw a mix of string literal unions and en
 When we want to document intent and create a set of distinct, named constraints, we usually use one of three patterns:
 - literal union type,
 - enum,
-- and const assertion.
+- const assertion.
 
 
 Each has its upsides, caveats, associated risks, and runtime costs. As usual, there is no one-size-fits-all approach here. However, arguably, the const assertion is what you should default to unless you have specific reasons not to use it.
@@ -24,9 +24,9 @@ I'm sure you've used or seen plenty of [literal](https://www.typescriptlang.org/
 type LogLevel = "debug" | "info" | "warn" | "error";
 ```
 
-Plain and simple, right? But there are caveats: **you can't access the values at runtime**.
+Plain and simple, right? But there is a caveat: **you can't access the values at runtime**.
 
-If you want to add runtime validation when reading a file config or environment variables, you need to duplicate the values. If you later add the `"critical"` literal to the union, you must remember to update the schema too, or you will get a runtime failure. There is no connection between the type and the runtime validation.
+If you want to add runtime validation when reading a file config or environment variables, you need to duplicate the values. If you later add the `"critical"` literal to the union, you must remember to update the schema too, or you will get a runtime failure. There is no connection between the type and the runtime values.
 
 ```ts
 type LogLevel = "debug" | "info" | "warn" | "error";
@@ -37,6 +37,8 @@ const logLevelSchema = z.enum(["debug", "info", "warn", "error"]);
 ## Enumerated Data Type
 
 The commonly used alternative is the enumerated data type. The enumerator names are usually identifiers that behave as constants. There are some small differences at runtime between numeric, string, and mixed enums. I am not going to cover those, but I strongly suggest you read the TypeScript [documentation](https://www.typescriptlang.org/docs/handbook/enums.html).
+
+You define the enum using the `enum` keyword.
 
 ```ts
 enum LogLevelEnum {
@@ -168,7 +170,7 @@ const errorMap = {
 } as const satisfies Record<ErrorCode, ErrorConfig>;
 ```
 
-### How The Indexed Access Works
+### How the Indexed Access Works
 
 The `[number]` index can be counterintuitive at first. The `[number]` syntax is used because arrays and tuples in TypeScript are technically objects with numeric keys.
 
@@ -180,7 +182,7 @@ Without the `[number]`, `typeof` would just be the array structure itself, not t
 
 ## Const Type Parameters
 
-TypeScript 5.0 introduced [const type parameters](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html#const-type-parameters), which let you write `function getLevels<const T>(arr: T[])` and have the compiler infer a readonly tuple instead of a widened array type without `as const` at the call site.
+TypeScript 5.0 introduced [const type parameters](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html#const-type-parameters), which let you write `function getLevels<const T>(arr: T[])` and have the compiler infer a read only tuple instead of a widened array type without `as const` at the call site.
 
 This is relevant here because if you find yourself writing wrapper functions that consume const-asserted arrays, a const type parameter can make the API cleaner.
 
