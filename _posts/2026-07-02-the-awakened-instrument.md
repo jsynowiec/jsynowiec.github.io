@@ -1,6 +1,6 @@
 ---
 title: "The Awakened Instrument"
-date: 2026-06-17 12:25:37 +0200
+date: 2026-07-02 15:27:12 +0200
 categories: ["Musings"]
 description: A fairy tale about perfect obedience, royal confidence, and the kind of miracle best kept under supervision. In a kingdom fond of polished promises, a wondrous guardian arrives with all the right answers, all the right manners, and very little sense of its own.
 tags: ["AI", "Sandboxing", "Story", "Satire", "Fairy Tale", "Automation", "AI Safety", "Governance"]
