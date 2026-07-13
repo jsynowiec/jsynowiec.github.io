@@ -43,7 +43,11 @@ Even before we get to the people side.
 >
 > \- IBM Training Manual, 1979 via [bumblebike](https://x.com/bumblebike/status/832394003492564993)
 
-## Sources
+## Literature
+
+There is no single universally accepted definition of a DRI. Apple popularized the term, and many companies have since adapted it to their own needs. In this post, I use my own interpretation of what the role requires.
+
+For anyone interested in exploring the topic in more depth, I recommend the following.
 
 - **Jocko Willink & Leif Babin**, *Extreme Ownership: How U.S. Navy SEALs Lead and Win* (2015), *The Dichotomy of Leadership* (2018)
 - **Jocko Willink**, *Leadership Strategy and Tactics* (2023)
