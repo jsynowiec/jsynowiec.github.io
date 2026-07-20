@@ -6,7 +6,7 @@ order: 4
 
 Welcome. I'm Jakub, and I'm a human[^1]. This is where I write.
 
-I’m an engineering leader, a systems architect, and a generalist tinkerer who transitioned from the physics of lasers and aerial-deployed mesh sensors to the complexity of distributed data platforms and AI. This blog is my laboratory for thinking out loud. Specifically about building high-leverage teams, navigating the AI shift, and shipping software that lasts.
+I’m an engineering leader, a systems architect, and a generalist tinkerer who transitioned from the physics of lasers and aerial-deployed mesh sensors to the complexity of distributed data platforms and AI. This blog is my laboratory for thinking out loud.
 
 I write primarily because it helps me organize my thoughts, and every so often those ideas can be helpful to others. I hope you'll find my posts informative, engaging, and valuable.
 
